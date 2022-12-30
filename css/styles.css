@@ -1,0 +1,15 @@
+.test-link{
+    color: blue;
+}
+
+.test-link:hover{
+    color: brown;
+}
+
+.test-link:focus{
+    color:red;
+}
+
+.accent {
+
+}
