@@ -1,15 +1,34 @@
-.test-link{
-    color: blue;
+body{
+    background-color: white;
+    color: #434455;
+}
+.logo{
+    color: #2E2F42;
+}
+.logo:hover,
+.logo:focus{
+    color: red;
+}
+.accent{
+    color: #4D5AE5;
+}
+.list{
+    list-style: none;
 }
 
-.test-link:hover{
-    color: brown;
+/*-------------------------- Site nav */
+.site-nav .link{
+    color: #2E2F42;
 }
-
-.test-link:focus{
-    color:red;
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: red;
 }
-
-.accent {
-
+/*--------------------------Hero  */
+.hero-title{
+    color: aqua;
+}
+/* -------------------------Section */
+.section-title{
+    color: #2E2F42;
 }
