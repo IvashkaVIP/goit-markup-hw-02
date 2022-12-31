@@ -1,16 +1,22 @@
+:root{
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --primary-bg-color: white;
+}
 body{
-    background-color: white;
-    color: #434455;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
 }
 .logo{
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 .logo:hover,
 .logo:focus{
     color: red;
 }
 .accent{
-    color: #4D5AE5;
+    color: var(--accent-color);
 }
 .list{
     list-style: none;
@@ -18,7 +24,7 @@ body{
 
 /*-------------------------- Site nav */
 .site-nav .link{
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -26,9 +32,19 @@ body{
 }
 /*--------------------------Hero  */
 .hero-title{
-    color: aqua;
+    background-color: var(--title-text-color);
+    color: white;
 }
 /* -------------------------Section */
 .section-title{
-    color: #2E2F42;
+    color: var(--title-text-color);
+}
+/* --------------------------Feature */
+.feature-list .title{
+    color: var(--title-text-color);
+}
+/* --------------------------Button */
+.button{
+    background-color: var(--accent-color);
+    color: white;
 }

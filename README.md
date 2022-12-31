@@ -11,11 +11,13 @@ class:
 Slate
 
 <!-- вторичній/заголовки цвет -->
-#2E2F42 Navy Blue
+#2E2F42
+Navy Blue
 
 <!-- акцент цвет -->
 #4D5AE5
 iris
 
 <!-- белый цвет -->
-#FFFFFF white
+#FFFFFF
+ white
