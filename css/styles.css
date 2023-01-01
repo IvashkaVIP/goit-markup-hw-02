@@ -3,6 +3,8 @@
     --title-text-color: #2E2F42;
     --accent-color: #4D5AE5;
     --primary-bg-color: white;
+    --portfolio-filter-accent-color: #404BBF;
+    --portfolio-filter-bg-color: #F4F4FD;
 }
 body{
     background-color: var(--primary-bg-color);
@@ -11,10 +13,7 @@ body{
 .logo{
     color: var(--title-text-color);
 }
-.logo:hover,
-.logo:focus{
-    color: red;
-}
+
 .accent{
     color: var(--accent-color);
 }
@@ -28,8 +27,18 @@ body{
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: red;
+    color:var(--accent-color);
+} 
+.contacts{
+    text-decoration: none;
+    font-style: normal;
+    color: var(--primary-text-color);
 }
+.contacts:focus,
+.contacts:hover{
+    color: var(--accent-color);
+}
+
 /*--------------------------Hero  */
 .hero-title{
     background-color: var(--title-text-color);
@@ -46,5 +55,15 @@ body{
 /* --------------------------Button */
 .button{
     background-color: var(--accent-color);
+    color: white;
+}
+/* --------------------------Portfolio - Filter - Button */
+.filter{
+    background-color: var(--portfolio-filter-bg-color);
+    color: var(--portfolio-filter-accent-color);
+}
+.filter:hover,
+.filter:focus{
+    background-color: var(--portfolio-filter-accent-color);
     color: white;
 }
