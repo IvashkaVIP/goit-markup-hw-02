@@ -9,13 +9,18 @@
 body{
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+.accent{
+    color: var(--accent-color);
 }
 .logo{
     color: var(--title-text-color);
-}
-
-.accent{
-    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
@@ -23,21 +28,35 @@ body{
 
 /*-------------------------- Site nav */
 .site-nav .link{
-    color: var(--primary-text-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus{
-    color:var(--accent-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
 } 
-.contacts{
-    text-decoration: none;
-    font-style: normal;
-    color: var(--primary-text-color);
+.site-nav .link:focus,
+.site-nav .link:hover{
+    color: var(--primary-text-color);    
 }
-.contacts:focus,
-.contacts:hover{
+.site-nav .link:active{
     color: var(--accent-color);
 }
+
+/* ---------------------------Contakts */
+.adress .contakts{
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
+}
+.adress .contakts:hover,
+.adress .contakts:focus{ 
+    color: var(--accent-color);
+} 
 
 /*--------------------------Hero  */
 .hero-title{
