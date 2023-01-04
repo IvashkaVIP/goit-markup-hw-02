@@ -9,7 +9,6 @@
     --footer-color-text: #e7e9fc;
     --dark-bcg-color: #2e2f42;
     --light-bcg-color: #f4f4fd;
-    --portfolio-filter-bcg-color: #F4F4FD;
 }
 body{
     background-color: var(--primary-bcg-color);
@@ -46,7 +45,7 @@ body{
 }
 
 /* ---------------------------Contakts */
-.adress .contakts{
+.contakts{
     color: var(--body-text-color);
     font-style: normal;
     font-weight: 400;
@@ -55,8 +54,8 @@ body{
     letter-spacing: 0.02em;
     text-decoration-line: none;
 }
-.adress .contakts:hover,
-.adress .contakts:focus{ 
+.contakts:hover,
+.contakts:focus{ 
     color: var(--active-text-color);
 } 
 
@@ -73,6 +72,13 @@ body{
     letter-spacing: 0.02em;
 }
 /* --------------------------Button */
+.btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
 .hero .btn{
     color:var(--light-color);
     background-color: var(--accent-color);
@@ -121,22 +127,13 @@ body{
 .footer-page .logo{
     color: var(--light-color);
 }
-/* --------------------------Feature */
-.feature-list .title{
-    color: var(--dark-heading-color);
-}
-/* --------------------------Button */
-.button{
-    background-color: var(--accent-color);
-    color: var(--light-color);
-}
-/* --------------------------Portfolio - Filter - Button */
-.filter{
+/* --------------------------Filter */
+.filter .btn{
     background-color: var(--light-bcg-color);
     color: var(--active-btn-color);
 }
-.filter:hover,
-.filter:focus{
+.filter .btn:focus,
+.filter .btn:hover{
     background-color: var(--active-btn-color);
     color: var(--light-color);
 }
